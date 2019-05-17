@@ -1,0 +1,1 @@
+<?php	session_start();	if(!ISSET($_SESSION['admin_id'])){		header("location: index.php");	}	$jsonfile = "http://192.168.2.208:8002/api/inventory";?>	
